@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>
+	<span style="background:skyblue;">자기소개</span>
+  </h1>
+  <p>안녕하세요! 제 이름은 윤태희입니다.</p>
+  <p> 저는 올해 고려대학교 인공지능학과에 입학한 25학번이고, 2006년생입니다.</p>
+  <p>잘 하지는 못하지만, 프로그래밍과 웹 개발에 관심이 있고 열심히 배우고 싶습니다!</p>
+  <h1>
+	<span style="background:skyblue;">KWEB 만족도 설문조사</span>
+  </h1>
+	<form action="#">
+		<div>
+			  <b>1. 이름을 작성해주세요.</b>
+			  <p>
+				<input type="text">
+			  </p>
+		</div>
+    
+	</form>
+
+	 <form action="#">
+		<div>
+			 <b>2. 학번을 작성해주세요.</b>
+			 <p>
+				<input type="text">
+			 </p>
+		</div>
+    </form>
+	<form action="#">
+		<div>
+		<b>3. 현재 회원 등급을 선택해주세요.</b>
+		<p>
+		<div class="radio-group">
+        <input type="radio" id="junior" name="member" value="junior">
+        <label for="junior">준회원</label>
+        <input type="radio" id="regular" name="member" value="regular">
+        <label for="regular">정회원</label>
+        <input type="radio" id="rest" name="member" value="rest">
+        <label for="rest">휴회원</label>
+      	</div>
+	  	</p>	
+
+    </form>
+
+    <form action = "#">
+      <b>4. 본인이 관심있는 분야를 모두 선택해주세요.</b>
+	  <p>
+		<div class="checkbox-group">
+        <input type="checkbox" id="frontend" name="interest" value="frontend">
+        <label for="frontend">프론트엔드 프로그래밍</label>
+        <input type="checkbox" id="backend" name="interest" value="backend">
+        <label for="backend">백엔드 프로그래밍</label>
+        <input type="checkbox" id="webcrawling" name="interest" value="webcrawling">
+        <label for="webcrawling">웹 크롤링</label>
+        <input type="checkbox" id="security" name="interest" value="security">
+        <label for="security">웹 보안</label>
+        <input type="checkbox" id="etc" name="interest" value="etc">
+        <label for="etc">기타</label>
+        <input type="text">
+      </div>
+	  </p>
+      
+    </form>
+
+    <div class="form-section">
+	  <p>
+		<b>5. 2025 가을학기 KWEB 스터디에 대한 전반적인 평가와 피드백을 작성해주세요.</b>
+	  </p>
+      <textarea id="feedback" name="feedback" rows="20" cols = "80"></textarea>
+    </div>
+
+    <button type="submit">제출</button>
+  </form>
+</body>
+</html>
